@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import java.util.*;
 public class count {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+    public static void co(){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("enter number:");
         int n=sc.nextInt();
-        System.out.println("enter number");
         int c=0;
         while(n>0){
             int a=n%10;
@@ -11,8 +11,10 @@ public class count {
             n=n/10;
         }
         System.out.print("number of digits are:"+c);
-
+        
         sc.close();
     }
-    
+      public static void main(String[] args){
+               co();
+}
 }
